@@ -20,4 +20,4 @@ I'm deeply interested in space-related projects, and in addition to my personal 
 
 ### Blog posts
 
-1. [Using Eagle to design CubeSat solar panels](https://guides.github.com/features/mastering-markdown/).
+1. [Calibrating and operating a (not-yet multispectral) imager](https://guides.github.com/features/mastering-markdown/).
