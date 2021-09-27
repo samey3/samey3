@@ -6,7 +6,7 @@ Hi all,
 
 I am a Master's student in the department of Electrical and Computer Engineering at Western University, conducting research under Dr. Jayshri Sabarinathan. My work involves the hardware and software development of an Integrated Vision System (IVS) for lunar applications.
 
-I'm deeply interested in space-related projects, and in addition to my personal ones, I have been involved in several at Western University that are associated with the Canadian Space Agency. I'm always on the lookout for new projects to join!
+I'm deeply interested in space-related projects, and in addition to my personal ones, I have been involved in several at Western University involving the Canadian Space Agency. I'm always on the lookout for new projects to join!
 
 ### Background
 * M.E.Sc. ECE (Thesis Based), Software, Collaborative Specialization in Planetary Science and Exploration, Western University (2021-present)
