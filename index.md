@@ -16,7 +16,7 @@ I'm deeply interested in space-related projects, and in addition to my personal 
 * Lunar Integrated Vision System (IVS)
 * Western University CubeSat Project - Technical lead, flight software, solar panels
 * [CSA STRATOS 2019, WesternU HAB Project](https://github.com/WesternHAB/BioSampleBalloon) - Flight software developer
-* [L-COM communication module](https://github.com/samey3/HAB360/tree/master/L-COM%20system)
+* [L-COM communication module](https://github.com/WesternHAB/HAB360/blob/master/L-COM%20system/README.md)
 
 ### Blog posts
 
