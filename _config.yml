@@ -1,3 +1,4 @@
 theme: jekyll-theme-midnight
 title: myCustomTitle
 description: myCustomAndDetailedDescription
+is_project_page: false
