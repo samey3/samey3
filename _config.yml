@@ -1,4 +1,5 @@
 theme: jekyll-theme-midnight
-title: Stephen Amey
+name: Stephen Amey
+title: null
 github:
 is_project_page: false
