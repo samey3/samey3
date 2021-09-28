@@ -1,4 +1,3 @@
-## Stephen Amey
 
 ### About me
 
