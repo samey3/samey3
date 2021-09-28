@@ -17,6 +17,11 @@ In addition to the computer and cameras, Spectralon panels are also needed to ca
 
 ## Calibrating the camera
 To obtain an optimal image, the camera must be calibrated for the lighting conditions that it is expected to be in when used in the field, and will not work well for any other conditions that it was not specifically calibrated for. The camera may be calibrated by tweaking the gain and exposure time values in such a way that the pixels located on the Spectralon panels reach a desired value. For example if using the 50% reflectivity panel, we may want the pixels on the Spectralon panel to be "50% of the way between black and white". E.g. if the max pixel value is 8-bits (2^8 = 256), we want to scale al of the pixels so that the average values of the ones on the panels are about 128. To do this, a process for finding the gain and exposure time can be found as follows:
+
+![Calibration flowchart](flowchart.png?raw=true "Calibration flowchart")
+ 
+ 
+ 
  
 Calibrated for light, light
 Calibrated for light, dark
