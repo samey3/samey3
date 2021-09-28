@@ -18,6 +18,14 @@
     {% include head-custom.html %}
   </head>
   <body>
+    
+    <div id="header">
+        <nav>
+          <ul>
+            <li class="fork"><a href="https://github.com/samey3">GitHub</a></li>
+          </ul>
+        </nav>
+      </div><!-- end header -->
 
     <div class="wrapper">
 
@@ -26,6 +34,8 @@
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
           <p>{{ site.description | default: site.github.project_tagline }}</p>
           <hr>
+           <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash</span>
         </div>
 
         {{ content }}
