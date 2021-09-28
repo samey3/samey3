@@ -3,6 +3,8 @@
 Talk about:
 The project (multispectral imager), and the tools/equipment we're using (Allied Vision imager), mention that this is only the VIS imager and the NIR is in pieces at the moment. Maybe show pic of the model (not sure if allowed though, so don't), and mention that there will be a filter wheel in front of it. This part is only getting the imager working and calibrating.
 
+![Calibrated image](calibrated_image.png?raw=true "Calibrated image")
+
 Talk about the hardware. Allied vision imagers, Odyyssey, and how we're controlling it (via remotedesktop).
 
 Then, mention how it calibrates, show the flowchart. Mention how we need sliders to initially get a viewfinder image, position the spectralon, select filter (which will move wheel), then calibrate. A post-calibration image can then be taken (show one?)
