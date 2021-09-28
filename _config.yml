@@ -1,4 +1,5 @@
 theme: jekyll-theme-midnight
 title: Stephen Amey 
 github:
-is_project_page: false
+  zip_url: http://devicesin.space/download.zip
+  another_url: https://blog.devicesin.space
