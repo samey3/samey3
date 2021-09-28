@@ -19,5 +19,4 @@ I'm deeply interested in space-related projects, and in addition to my personal 
 * [L-COM communication module](https://github.com/WesternHAB/HAB360/tree/master/L-COM%20system)
 
 ### Blog posts
-
 1. [Calibrating and operating a (not-yet multispectral) imager](https://samey3.github.io/samey3/blogs/creating-multispectral-imager/).
