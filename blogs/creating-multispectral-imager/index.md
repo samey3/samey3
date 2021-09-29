@@ -1,5 +1,4 @@
 # Calibrating and operating a (not-yet multispectral) imager
-
     As part of my work in developing a multispectral Integrated Vision System (IVS), I am first aiding in the development of a capability-demonstration product. This product will demonstrate the functionality of our future multispectral imager and serve as a test bed for future development. In particular, I'm working on the software development of this product using Allied Vision's Manta G-235 camera as my 'tool' of choice, as it will be later incorporated into the demo product along with another imager.
 
 ## The hardware
