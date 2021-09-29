@@ -1,6 +1,6 @@
 # Calibrating and operating a (not-yet multispectral) imager
 
- As part of my work in developing a multispectral Integrated Vision System (IVS), I am first aiding in the development of a capability-demonstration product. This product will demonstrate the functionality of our future multispectral imager and serve as a test bed for future development. In particular, I'm working on the software development of this product using Allied Vision's Manta G-235 camera as my 'tool' of choice, as it will be later incorporated into the demo product along with another imager.
+    As part of my work in developing a multispectral Integrated Vision System (IVS), I am first aiding in the development of a capability-demonstration product. This product will demonstrate the functionality of our future multispectral imager and serve as a test bed for future development. In particular, I'm working on the software development of this product using Allied Vision's Manta G-235 camera as my 'tool' of choice, as it will be later incorporated into the demo product along with another imager.
 
 ## The hardware
  To control the imaging cameras, I am using Seeed Studio's ODYSSEY board running Windows 10. This allows us to utilize Window's remote desktop feature to control the board over WiFi when out in the field.
@@ -19,7 +19,7 @@ In addition to the computer and cameras, Spectralon panels are also needed to ca
 
 ![Calibration program](temp_calibration_program.png?raw=true "Calibration program")
 
- To obtain an optimal image, the camera must be calibrated for the lighting conditions that it is expected to be in when used in the field, and will not work well for any other conditions that it was not specifically calibrated for. The camera may be calibrated by tweaking the gain and exposure time values in such a way that the pixels located on the Spectralon panels reach a desired value. For example if using the 50% reflectivity panel, we may want the pixels on the Spectralon panel to be "50% of the way between black and white". E.g. if the max pixel value is 8-bits (2^8 = 256), we want to scale all of the pixels so that the average values of the ones on the panels are about 128. To do this, a process for finding the gain and exposure time can be found as follows:
+    To obtain an optimal image, the camera must be calibrated for the lighting conditions that it is expected to be in when used in the field, and will not work well for any other conditions that it was not specifically calibrated for. The camera may be calibrated by tweaking the gain and exposure time values in such a way that the pixels located on the Spectralon panels reach a desired value. For example if using the 50% reflectivity panel, we may want the pixels on the Spectralon panel to be "50% of the way between black and white". E.g. if the max pixel value is 8-bits (2^8 = 256), we want to scale all of the pixels so that the average values of the ones on the panels are about 128. To do this, a process for finding the gain and exposure time can be found as follows:
 
 ![Calibration flowchart](flowchart.png?raw=true "Calibration flowchart")
  
@@ -44,6 +44,6 @@ Before going out in the field we will have calibrated and produced numerous sett
 
 
 ## The in-field software
- Now that the camera may be calibrated for a variety of conditions, all that remains is to actually use it for a purpose! The camera operation software I developed allows both of the cameras to switch between filters and the calibrated settings associated with them on demand to deal with the various lighting conditions we might encounter. By controlling it through remote desktop, the chosen camera will use the currently selected filter and calibration settings, capture images, and save these for for immediate or later analysis.
+    Now that the camera may be calibrated for a variety of conditions, all that remains is to actually use it for a purpose! The camera operation software I developed allows both of the cameras to switch between filters and the calibrated settings associated with them on demand to deal with the various lighting conditions we might encounter. By controlling it through remote desktop, the chosen camera will use the currently selected filter and calibration settings, capture images, and save these for for immediate or later analysis.
 
 ![Operation software](operation_software.png?raw=true "Operation software")
