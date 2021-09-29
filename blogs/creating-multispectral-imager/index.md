@@ -16,25 +16,34 @@ In addition to the computer and cameras, Spectralon panels are also needed to ca
 ![50% Spectralon panel](panel.jpg?raw=true "50% Spectralon panel")
 
 ## Calibrating the camera
+
+![Calibration program](temp_calibration_program.png?raw=true "Calibration program")
+
 To obtain an optimal image, the camera must be calibrated for the lighting conditions that it is expected to be in when used in the field, and will not work well for any other conditions that it was not specifically calibrated for. The camera may be calibrated by tweaking the gain and exposure time values in such a way that the pixels located on the Spectralon panels reach a desired value. For example if using the 50% reflectivity panel, we may want the pixels on the Spectralon panel to be "50% of the way between black and white". E.g. if the max pixel value is 8-bits (2^8 = 256), we want to scale al of the pixels so that the average values of the ones on the panels are about 128. To do this, a process for finding the gain and exposure time can be found as follows:
 
 ![Calibration flowchart](flowchart.png?raw=true "Calibration flowchart")
  
- 
- 
- 
-Calibrated for light, light
-Calibrated for light, dark
-Calibrated for dark, dark
-
-
-
+The software I developed lets the user select the filter and camera, and calibrate it using the process seen in the flowchart above. While the filter wheel and filters are not ready to be used yet, the camera may be used as-is. Once calibrated (using the 50% panel with a 50% pixel goal value), the camera was able to produce the following image in the lab room with the lights on:
 
 ![Calibrated image](calibrated_image.png?raw=true "Calibrated image")
+Calibrated for light, light
 
-Then, mention how it calibrates, show the flowchart. Mention how we need sliders to initially get a viewfinder image, position the spectralon, select filter (which will move wheel), then calibrate. A post-calibration image can then be taken (show one?)
+However after turning the lights off and capturing another image, the following image was produced:
 
-Mention that once this is done for all the filters, you would then run the operation software for the in-flight stuff. If you're calibration was correct and you're not operating in too-different conditions, your images comeout good. Show example for calibrating in the dark, and then lights come on (overexposed image).
+Calibrated for light, dark
 
-Image of camera, spectralon panel, calibration software, operation software,
-flowchart, tiff images (uncalibrated, calibrated)
+As mentioned earlier, a camera calibrated for one set of conditions will not work for another. But in order to deal with this, we can just recalibrate the camera for the new conditions and capture another image, and it should appear much better:
+
+Calibrated for dark, dark
+
+Similarly now that we calibrated for a dark room, if we switch the lights back on the images produced will be overexposed:
+
+Calibrated for dark, light
+
+Before going out in the field we will have calibrated and produced numerous settings that may be loaded for any particular filter, and this will allow us to deal with varying lighting conditions.
+
+
+## The in-field software
+Now that the camera may be calibrated for a variety of conditions, all that remains is to actually use it for a purpose! The camera operation software I developed allows both of the cameras to switch between filters and the calibrated settings associated with them on demand to deal with the various lighting conditions we might encounter. By controlling it through remote desktop, the chosen camera will use the currently selected filter and calibration settings, capture images, and save these for for immediate or later analysis.
+
+![Operation software](operation_software.png?raw=true "Operation software")
