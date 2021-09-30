@@ -36,7 +36,7 @@ As mentioned earlier, a camera calibrated for one set of conditions will not wor
 
 Similarly now that we calibrated for a dark room, if we switch the lights back on the images produced will be overexposed:
 
-![Calibrated image](cal_dark_cap_light (1).png?raw=true "Calibrated image")
+![Calibrated image](cal_dark_cap_light.png?raw=true "Calibrated image")
 
 Before going out in the field we will have calibrated and produced numerous settings that may be loaded for any particular filter, and this will allow us to deal with varying lighting conditions.
 
