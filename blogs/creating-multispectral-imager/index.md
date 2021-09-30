@@ -6,7 +6,7 @@
 
 ![Odyssey](odyssey.png?raw=true "Odyssey")
 
-The cameras themselves are from Allied Vision. The first is the previously mentioned Manta G-235 which is the main tool used in the development of the software. The Manta G-235 will be used primairily to image in the visible spectrum using a set of filters that will be placed in front of it via a rotating filter wheel. The second camera is Allied Vision's Goldeye short-wave infrared (SWIR) InGaAs camera which will also utilize it's own set of filters, however this one is currently in pieces so using it will have to wait.
+The cameras themselves are from Allied Vision. The first is the previously mentioned Manta G-235 which is the main tool used in the development of the software. The Manta G-235 will be used primairily to image in the visible spectrum using a set of filters that will be placed in front of it via a rotating filter wheel. The second camera is Allied Vision's Goldeye G-033 TEC1 short-wave infrared (SWIR) InGaAs camera which will also utilize it's own set of filters, however this one is currently in pieces so using it will have to wait.
 
 ![Manta G-235 camera](camera.jpg?raw=true "Manta G-235 camera")
 
