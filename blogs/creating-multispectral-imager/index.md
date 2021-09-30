@@ -43,5 +43,3 @@ Before going out in the field we will have calibrated and produced numerous sett
 
 ## The in-field software
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now that the camera may be calibrated for a variety of conditions, all that remains is to actually use it for a purpose! The camera operation software I developed allows both of the cameras to switch between filters and the calibrated settings associated with them on demand to deal with the various lighting conditions we might encounter. By controlling it through remote desktop, the chosen camera will use the currently selected filter and calibration settings, capture images, and save these for for immediate or later analysis.
-
-![Operation software](operation_software.png?raw=true "Operation software")
