@@ -16,7 +16,7 @@ In addition to the computer and cameras, Spectralon panels are also needed to ca
 
 ## Calibrating the camera
 
-![Calibration program](temp_calibration_program.png?raw=true "Calibration program")
+![Calibration program](viewfinder.png?raw=true "Calibration program")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To obtain an optimal image, the camera must be calibrated for the lighting conditions that it is expected to be in when used in the field, and will not work well for any other conditions that it was not specifically calibrated for. The camera may be calibrated by tweaking the gain and exposure time values in such a way that the pixels located on the Spectralon panels reach a desired value. For example if using the 50% reflectivity panel, we may want the pixels on the Spectralon panel to be "50% of the way between black and white". E.g. if the max pixel value is 8-bits (2^8 = 256), we want to scale all of the pixels so that the average values of the ones on the panels are about 128. To do this, a process for finding the gain and exposure time can be found as follows:
 
@@ -24,20 +24,19 @@ In addition to the computer and cameras, Spectralon panels are also needed to ca
  
 The software I developed lets the user select the filter and camera, and calibrate it using the process seen in the flowchart above. While the filter wheel and filters are not ready to be used yet, the camera may be used as-is. Once calibrated (using the 50% panel with a 50% pixel goal value), the camera was able to produce the following image in the lab room with the lights on:
 
-![Calibrated image](calibrated_image.png?raw=true "Calibrated image")
-Calibrated for light, light
+![Calibrated image](cal_light_cap_light.tiff?raw=true "Calibrated image")
 
 However after turning the lights off and capturing another image, the following image was produced:
 
-Calibrated for light, dark
+![Calibrated image](cal_light_cap_dark.tiff?raw=true "Calibrated image")
 
 As mentioned earlier, a camera calibrated for one set of conditions will not work for another. But in order to deal with this, we can just recalibrate the camera for the new conditions and capture another image, and it should appear much better:
 
-Calibrated for dark, dark
+![Calibrated image](cal_dark_cap_dark.tiff?raw=true "Calibrated image")
 
 Similarly now that we calibrated for a dark room, if we switch the lights back on the images produced will be overexposed:
 
-Calibrated for dark, light
+![Calibrated image](cal_dark_cap_light.tiff?raw=true "Calibrated image")
 
 Before going out in the field we will have calibrated and produced numerous settings that may be loaded for any particular filter, and this will allow us to deal with varying lighting conditions.
 
